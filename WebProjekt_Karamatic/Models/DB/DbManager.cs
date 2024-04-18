@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 
-namespace Web_Grundlagen.Models.DB {
+namespace WebProjekt_Karamatic.Models.DB {
     public class DbManager : DbContext{
 
         public DbSet<User> Users { get; set; }

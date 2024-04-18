@@ -1,4 +1,4 @@
-﻿namespace Web_Grundlagen.Models {
+﻿namespace WebProjekt_Karamatic.Models {
     //vereinfachte Klasse (keine ctors, ToString, Überprüfung)
     public class User {
 
