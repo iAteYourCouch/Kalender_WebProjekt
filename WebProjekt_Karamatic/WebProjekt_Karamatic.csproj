@@ -10,7 +10,6 @@
     <Folder Include="Controllers\" />
     <Folder Include="Migrations\" />
     <Folder Include="Models\DB\" />
-    <Folder Include="Views\Start\" />
   </ItemGroup>
 
   <ItemGroup>
