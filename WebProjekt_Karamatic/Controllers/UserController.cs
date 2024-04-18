@@ -5,9 +5,5 @@ namespace WebProjekt_Karamatic.Controllers {
         public IActionResult Index() {
             return View();
         }
-
-        public IActionResult AllUsers() {
-            return View("Users");
-        }
     }
 }

@@ -5,5 +5,6 @@
 	Grundstruktur vollendet
 	Datenbank eingerichtet	
 	Fehler behoben
+	Website zum ersten mal gestartet
 
-25.4.2024(2h)						TODO: Website starten
+25.4.2024(2h)								TODO: Seiten verknüpfen bzw fixen, Felder und Klassen
