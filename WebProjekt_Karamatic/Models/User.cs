@@ -7,6 +7,16 @@
         public string Lastname { get; set; }
 
         public string Email { get; set; }
+        public string Password { get; set; }
         public DateTime Birthdate { get; set; }
+
+        public User(int userId, string firstname, string lastname, string email, string password, DateTime birthdate) {
+            UserId = userId;
+            Firstname = firstname;
+            Lastname = lastname;
+            Email = email;
+            Password = password;
+            Birthdate = birthdate;
+        }
     }
 }
