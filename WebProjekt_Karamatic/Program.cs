@@ -5,12 +5,6 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
-//DI-Container: ist ein Software teil der bereits im Programm
-//      aktiv ist
-//DI-Container: ihm geben wir die DbManager-Klasse bekannt
-//  immer wenn der Name (hier DbManager) bei einem ctor
-//      angeg. wird, übergibt der DI-Container die von ihm erzeugte
-//      Instanz an den ctor
 builder.Services.AddDbContext<DbManager>(ServiceLifetime.Singleton);
 
 //für sessions notwendig - Konfiguration
